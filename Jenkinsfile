@@ -1,5 +1,7 @@
 pipeline {
-    agent 'mac-agent'
+    agent {
+	label 'mac-agent'
+    }
 
     stages {
         stage('Checkout') {
