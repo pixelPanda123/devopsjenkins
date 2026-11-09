@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent 'mac-agent'
 
     stages {
         stage('Checkout') {
